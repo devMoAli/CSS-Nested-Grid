@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nested Grid Layout</title>
+
+    <link href="nestedGridLayout.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="header">
+      <h1>Nested Grid Layout</h1>
+    </div>
+
+    <div class="row">
+      <div class="col-3 menu">
+        <ul>
+          <li>Nav 1</li>
+          <li>Nav 2</li>
+          <li>Nav 3</li>
+          <li>Nav 4</li>
+          <li>Nav 5</li>
+          <li>Nav 6</li>
+          <li>Nav 7</li>
+          <li>Nav 8</li>
+        </ul>
+      </div>
+
+      <div class="col-6">
+        <h1>Main Content</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis
+          illo consectetur maiores dolores libero ex nostrum odit perspiciatis
+          inventore explicabo. Voluptas deleniti molestias hic esse ratione ex.
+          Error voluptas ipsam sequi? Exercitationem, deserunt? Similique
+          voluptates facere aperiam distinctio deserunt in rem, soluta alias,
+          temporibus libero unde corporis consequatur assumenda cumque quas eum,
+          perspiciatis quaerat eligendi voluptatibus quae. Recusandae quo sed
+          distinctio adipisci impedit laudantium nemo perferendis veritatis
+          repudiandae fugit! Reiciendis doloremque veritatis, eveniet
+          reprehenderit eius, ducimus harum sit sint dolorum minima accusantium?
+          Provident consequuntur, distinctio veniam a corporis, eveniet
+          doloremque accusamus praesentium architecto iste recusandae obcaecati
+          dolorum nisi tenetur repellat.
+        </p>
+      </div>
+
+      <div class="col-3 right">
+        <div class="aside">
+          <h2>Aside Caption1</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur,
+            eius.
+          </p>
+          <h2>Aside Caption2</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo,
+            dicta?
+          </p>
+          <h2>Aside Caption3</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
+            totam!
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="grid-container">
+      <div class="grid-item1">
+        <div class="nestedGrid1">
+          <p>1</p>
+          <p>2</p>
+          <p>3</p>
+          <p>4</p>
+          <p>5</p>
+
+          <div class="nestedGrid2">
+            <p>1</p>
+            <p>2</p>
+            <p>3</p>
+            <p>4</p>
+            <p>5</p>
+            <p>6</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid-item"><h2>2</h2></div>
+      <div class="grid-item"><h2>3</h2></div>
+      <div class="grid-item"><h2>4</h2></div>
+      <div class="grid-item"><h2>5</h2></div>
+      <div class="grid-item"><h2>6</h2></div>
+    </div>
+    <div class="footer">
+      <p>
+        Resize the browser screen width to check how the Grid is responding with
+        different viewports
+      </p>
+    </div>
+  </body>
+</html>
